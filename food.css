@@ -1,0 +1,66 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-image: url("food4.jpg");
+background-size: cover;
+}
+
+header {
+background-color: #333;
+color: #fff;
+padding: 20px;
+text-align: center;
+}
+
+main {
+padding: 20px;
+}
+
+footer {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 10px;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+
+.recipe {
+border: 1px solid #ccc;
+padding: 10px;
+margin-bottom: 20px;
+margin:0 auto;
+
+}
+nav{
+margin:0 auto;
+}
+nav ul {
+list-style-type: none;
+padding:0;
+}
+
+nav ul li {
+display: inline;
+margin-right: 20px;
+}
+
+nav ul li a {
+text-decoration: none;
+color: white;
+
+}
+
+button{
+background-color: #333;
+color: #fff;padding: 10px 20px;
+text-decoration: none;
+border-radius: 5px;
+cursor: pointer;
+}
+nav ul li:hover{
+background-color: cornflowerblue;
+padding: 0.5%;
+}
